@@ -1,0 +1,378 @@
+/* Parámetros globales de Maquetación y Estilo */
+
+body {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	float: none;
+	position: relative;
+	background: url('') no-repeat top center fixed;
+	background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6, p, a { font-family: 'Quicksand', sans-serif;}
+
+a {
+    color: #ffffff;
+    text-shadow: 1px 1px 7px #707070;
+    font-size: 1.2em;
+
+}
+
+h1{
+    color: #707070;
+    font-size: 3em;
+    font-style: normal;
+    text-align: left;
+}
+
+h2{
+    text-shadow: 50px;
+    color: #ffffff;
+    text-shadow: 1px 5px 6px #707070;
+    font-size: 3em;
+    text-align: center;
+    font-weight: 300;
+    
+}
+
+h3{
+    text-shadow: 50px;
+    color: #ffffff;
+    text-shadow: 1px 5px 6px #707070;
+    font-size: 2em;   
+    
+}
+
+h4{
+    color: #707070;
+    display: block;
+
+}
+
+
+
+i{
+    color: #A7BFE0;
+    font-size: 2em;
+}
+
+
+/* Estilo propio del sitio web */
+
+
+
+
+
+
+header {
+    width: 100%;            /*Anchura*/
+    height: 60px;          /*Altura*/
+    display: block;         /*Despliegue*/
+    margin: 0;              /*Margen*/
+    float: none;            /*Lado hacia el que flota*/
+    position: fixed;        /* fixed / absolute / relative / sticky(JS) */
+    
+    top: 0;                 /*Solo sirven para posiciones fijas y absolutas*/
+    left: 0;
+    z-index: 99990;
+    text-shadow: 0.5px;
+    
+    
+    background: #A7BFE0;    /*Color de fondo*/
+    
+}
+
+
+header article {
+    width:100%;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+}
+
+
+header article nav#menu-principal {
+    width: 450px;
+    height: 1px;
+    display: block;
+    margin: 20px auto 0 600px;
+    float: none;
+    position: relative;
+}
+
+header article nav#menu-idioma{
+    width: auto;
+    height: auto;
+    display: block;
+    margin: auto;
+    float: right;
+    position: relative;
+}
+header article nav#menu-idioma a { 
+    width: 100%;
+    height: 100%;
+    display:block;
+    margin: 5px;
+    float: none;
+    position: relative;
+}
+
+
+
+main {
+    width: 90%;
+    height: 100%;         /* auto */
+    display: block;
+    margin: 100px;
+    float: none;
+    position: relative; 
+    
+}
+
+main section#banner-inicio{
+    width: 100%;
+    height: 600px;
+    display: block;
+    margin:auto;
+    float: none;
+    position: relative;
+    background-color: aquamarine;
+    
+}
+main section#banner-inicio article{
+    width:100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+main section#trabajos{
+    width:100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#trabajos article{
+    width:100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+main section#row-ilustracion{
+    width:100%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+main section#row-ilustracion div#caja-centrada{
+    width:1200px;
+    height: 350px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+main section#row-ilustracion article{
+    width:100%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+main section#row-ilustracion article:nth-child(1) a{
+    width: 33%;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    background-color: #A7BFE0;
+}
+
+main section#row-ilustracion article:nth-child(1) a img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+
+main section#row-ilustracion article:nth-child(2) a{
+    width:550px;
+    height: 300px;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    background-color: #A7BFE0;
+}
+
+
+main section#row-ilustracion article a{
+    width: 300px;
+    height: auto;
+    display: inline-block;
+    margin: none;
+    float: left;
+    position: relative;
+    background-color: #A7BFE0;
+    }
+    
+main section#row-animacion{
+    width:100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    float: none;
+    position: relative;
+    text-align: right;
+}
+
+main section#row-animacion article{
+    width:100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    float: none;
+    position: relative;
+    text-align: right;
+}
+
+main section#row-animacion article figure{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 10px 0 0;
+    float: left;
+    position: relative;
+
+}
+
+main section#row-diseño-3D{
+    width:100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+}
+
+main section#row-diseño-3D article{
+    width:1200px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#row-diseño-3D article a{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: none;
+    float: right;
+    position: relative;
+    
+}
+main section#row-diseño-3D article a img{
+    width:80%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    float: right;
+    position: relative;
+}
+
+main section
+
+
+footer {
+    width: 100%;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+
+}
+
+
+
+/* Zona Responsive */
+
+/*
+Escritorio y TV         >= 1200px
+Tablets                 <= 1199px --- >= 500px
+Móviles                 <= 499px --- >= 340px
+*/
+
+@media only screen and (max-width: 1199px){    /*Tablets*/
+    aside#menu-cortina {
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 1099px){
+    
+}
+
+@media only screen and (max-width: 999px){
+    
+}
+
+@media only screen and (max-width: 899px){
+    
+}
+
+@media only screen and (max-width: 799px){
+    
+}
+
+@media only screen and (max-width: 699px){
+    
+}
+
+@media only screen and (max-width: 599px){
+    
+}
+
+@media only screen and (max-width: 499px){     /*Móviles*/
+    
+}
+
+@media only screen and (max-width: 449px){
+    
+}
+
+@media only screen and (max-width: 399px){
+    
+}
+
+@media only screen and (max-width: 349px){
+    
+}
+
+
+
+
+
+
